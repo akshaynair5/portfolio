@@ -1,0 +1,49 @@
+.Hero{
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    height: 100%;
+    overflow-y: scroll;
+    /* background-image: linear-gradient( 109.6deg,  rgb(34, 0, 68) 11.2%, rgb(1, 1, 45) 91.1% ); */
+    background-color:rgb(35, 35, 35);
+}
+.background{
+    width: 100%;
+    height: 40%;
+}
+.infoMain{
+    display:flex;
+    background-color: transparent;
+    height: 30%;
+}
+.dp{
+    height: 20%;
+    position: absolute;
+    top:37%;
+    left: 5%;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 18px;
+    border-color: rgb(108, 190, 201);
+}
+.Per-info{
+    position: relative;
+    left:20%;
+    background-color: transparent;
+
+}
+.Per-info .name{
+    color:transparent;
+    background-clip: text;
+    background-image: linear-gradient( 109.6deg,  rgb(126, 91, 241) 11.2%, rgb(72, 209, 255) 91.1% );
+    font-size: 80px;
+    font-weight: 700;
+}
+.Per-info .profession{
+    padding-left: 1%;
+    text-align: left;
+    font-size: 25px;
+    color:transparent;
+    background-clip: text;
+    background-image: linear-gradient( 109.6deg,  rgb(192, 75, 194) 11.2%, rgb(48, 129, 156) 91.1% );
+}

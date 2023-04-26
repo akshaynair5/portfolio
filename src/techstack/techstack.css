@@ -1,0 +1,8 @@
+.icons{
+    padding-left: 3%;
+    display:flex;
+}
+.icon{
+    width: 10px;
+    margin-right: 2%;
+}

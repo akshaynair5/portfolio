@@ -1,0 +1,75 @@
+.Projects{
+    height: 80%;
+}
+.projects-container{
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.503);
+    height: 80%;
+    display: flex;
+    overflow-x: scroll;
+    border-radius: 15px;
+}
+.projects-container::-webkit-scrollbar {
+    width: 12px;              
+}
+.projecttab{
+    height: 80%;
+    background-color: black;
+    min-width:40%;
+    max-width: 40%;
+    align-self: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    display: grid;
+    background-size: cover;
+}
+.projecttab .descBox{
+    visibility: visible;
+    border-radius: 15px;
+    z-index: 2;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+    font-size: 25px;
+    overflow-y: scroll;
+    font-weight: 400;
+}
+.projecttab .descBox p{
+    padding: 3%;
+}
+.projecttab .descBox::-webkit-scrollbar {
+    width: 12px;              
+  }
+/* body::-webkit-scrollbar {
+    width: 12px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: orange;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: blue; 
+    border-radius: 20px;     
+    border: 3px solid orange; 
+  } */
+.projecttab .descBox:hover{
+    visibility: visible;
+}
+.projecttab a{
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    text-decoration: none;
+}
+.heading{
+    text-align: left;
+    padding-left: 5%;
+    font-size: 45px;
+    font-weight: 600;
+    color:transparent;
+    background-clip: text;
+    background-image: linear-gradient( 109.6deg,  rgb(192, 75, 194) 11.2%, rgb(48, 129, 156) 91.1% );
+}
