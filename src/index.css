@@ -12,6 +12,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
+  /* background: rgb(154,0,166);
+  background: linear-gradient(90deg, rgba(154,0,166,1) 0%, rgba(202,123,212,1) 35%, rgba(198,148,222,1) 58%, rgba(255,255,255,1) 100%); */
+  background-color:rgb(35, 35, 35);
 }
 
 code {

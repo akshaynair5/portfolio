@@ -1,5 +1,5 @@
 import './hero.css'
-import background from '../images/background.webp'
+import background from '../images/background.png'
 import user from '../images/user.png'
 import Projects from '../projects/projects'
 import Techstack from '../techstack/techstack'

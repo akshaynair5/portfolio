@@ -1,10 +1,14 @@
 .Navbar{
-    background-color: transparent;
+    background-color: rgb(0, 0, 0);
     position: fixed;
-    width:100%;
+    width:97.5%;
+    left:1.25%;
+    top:2%;
+    border-radius: 20px;
     height: 10%;
     z-index: 2;
     display: flex;
+
 }
 .icon{
     align-self: center;

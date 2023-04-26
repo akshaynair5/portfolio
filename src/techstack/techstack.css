@@ -1,8 +1,31 @@
+.techstack{
+    max-height: 30%;
+    max-width: 100%;
+    min-height: 30%;
+    min-width: 100%;
+}
+
 .icons{
-    padding-left: 3%;
+    height: 30%;
+    max-height: 30%;
+    max-width: 100%;
     display:flex;
+    /* background-color: aliceblue; */
+
 }
+
 .icon{
-    width: 10px;
+    /* padding-right: 2%; */
+    width:4%;
+    margin-left: 2%;
     margin-right: 2%;
+    /* border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;*/
+    cursor: pointer;
 }
+/* .icon:hover{
+    border-color: blueviolet;
+    width:6%;
+} */
