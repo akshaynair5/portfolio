@@ -34,3 +34,16 @@
 .NavBtns:hover{
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    .Navbar{
+        width: 100%;
+        left:0%;
+    }
+    .icon{
+        width:15%;
+    }
+    .NavBtns{
+        font-size: 12px;
+    }
+  }

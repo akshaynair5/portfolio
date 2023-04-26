@@ -29,3 +29,22 @@
     border-color: blueviolet;
     width:6%;
 } */
+
+@media only screen and (max-width: 600px) {
+    .techstack{
+        max-height: 18%;
+        max-width: 100%;
+        min-height: 18%;
+        min-width: 100%;
+    }
+    .heading{
+        font-size: 25px;
+    }
+    .icons{
+        height: 10%;
+        overflow-x: scroll;
+    }
+    .icons::-webkit-scrollbar {
+        width: 5px;              
+      }
+}

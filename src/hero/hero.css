@@ -64,3 +64,30 @@
     background-clip: text;
     background-image: linear-gradient( 109.6deg,  rgb(192, 75, 194) 11.2%, rgb(48, 129, 156) 91.1% );
 }
+
+@media only screen and (max-width: 600px) {
+    .Hero{
+        top:10%;
+    }
+    .infoMain{
+        height: 12%;
+    }
+    .dp{
+        top:22%;
+        height: 15%;
+        left:2%;
+    }
+    .Per-info{
+        left:35%;
+    }
+    .Per-info .name{
+        font-size: 35px;
+    }
+    .Per-info .profession{
+        font-size: 15px;
+    }
+    .background{
+        height: 25%;
+    }
+
+}
