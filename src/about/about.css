@@ -22,3 +22,14 @@
     margin-left: 2%;
     border-radius: 15px;
 }
+.infoAb{
+    width: 62%;
+    margin-left: 35%;
+    padding-left: 3%;
+    text-align: left;
+    padding-top: 2%;
+    font-size: 20px;
+    color:transparent;
+    background-clip: text;
+    background-image: linear-gradient( 109.6deg,  rgb(192, 75, 194) 7.2%, rgb(48, 129, 156) 21.1% );
+}

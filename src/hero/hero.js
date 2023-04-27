@@ -16,8 +16,8 @@ function Hero(){
                     <div className='profession'>Full Stack Developer</div>
                 </div>
             </div>
-            <Techstack/>
             <Projects/>
+            <Techstack/>
             <About/>
         </div>
     )
