@@ -34,25 +34,24 @@
     height: 30%;
 }
 .dp{
-    height: 20%;
+    height: 30%;
     position: absolute;
     top:37%;
     left: 5%;
     border-width: 3px;
     border-style: solid;
     border-radius: 18px;
-    border-color: rgb(108, 190, 201);
+    border-color: rgb(5, 9, 10);
 }
 .Per-info{
     position: relative;
     left:20%;
     background-color: transparent;
-
 }
 .Per-info .name{
     color:transparent;
     background-clip: text;
-    background-image: linear-gradient( 109.6deg,  rgb(126, 91, 241) 11.2%, rgb(72, 209, 255) 91.1% );
+    background-image: linear-gradient( 109.6deg,  rgb(126, 91, 241) 11.2%, rgb(0, 36, 48) 91.1% );
     font-size: 80px;
     font-weight: 700;
 }
@@ -62,7 +61,7 @@
     font-size: 25px;
     color:transparent;
     background-clip: text;
-    background-image: linear-gradient( 109.6deg,  rgb(192, 75, 194) 11.2%, rgb(48, 129, 156) 91.1% );
+    background-image: linear-gradient( 109.6deg,  rgb(79, 12, 81) 11.2%, rgb(0, 36, 48) 91.1% );
 }
 
 @media only screen and (max-width: 600px) {

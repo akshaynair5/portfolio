@@ -1,6 +1,6 @@
 import './hero.css'
 import background from '../images/background.png'
-import user from '../images/user.png'
+import user from '../images/user.jpg'
 import Projects from '../projects/projects'
 import Techstack from '../techstack/techstack'
 import About from '../about/about'
