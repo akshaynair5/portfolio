@@ -3,6 +3,7 @@ import background from '../images/background.png'
 import user from '../images/user.png'
 import Projects from '../projects/projects'
 import Techstack from '../techstack/techstack'
+import About from '../about/about'
 
 function Hero(){
     return(
@@ -17,6 +18,7 @@ function Hero(){
             </div>
             <Techstack/>
             <Projects/>
+            <About/>
         </div>
     )
 }

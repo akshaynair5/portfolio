@@ -1,0 +1,24 @@
+.about{
+    height: 80%;
+    width:90%;
+    background-color: black;
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.about .heading{
+    text-align: center;
+    padding-top: 2%;
+}
+.AboutContent{
+    display: flex;
+}
+.AboutContent img{
+    width:20%;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 2%;
+    border-radius: 15px;
+}
