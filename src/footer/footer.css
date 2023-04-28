@@ -1,0 +1,14 @@
+.Footer{
+    width: 98%;
+    height: 15%;
+    background-color: transparent;
+    border-color: black;
+    margin-top: 5%;
+}
+
+.Footer a{
+    margin-left: 2%;
+}
+.Footer a:hover{
+    cursor: pointer;
+}
