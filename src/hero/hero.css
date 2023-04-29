@@ -90,7 +90,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.718);
 }
-.infoMain button{
+/* .infoMain button{
     position: relative;
     left:50%;
     border-radius: 35px;
@@ -111,8 +111,24 @@
 }
 .infoMain button:hover{
     background-color: black;
+} */
+.infoMain a{
+    position: absolute;
+    right: 5%;
+    /* background-color: rgb(39, 2, 73); */
+    background-color: transparent;
+    border-width: 7px;
+    font-weight: 600;
+    margin-top: 1%;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s ease;
+    color:rgb(39, 2, 73);
 }
-
+.infoMain a:hover{
+    color:black;
+    color: rgb(36, 168, 168);
+}
 @media only screen and (max-width: 600px) {
     .Hero{
         top:10%;
@@ -122,20 +138,25 @@
     }
     .dp{
         top:22%;
-        height: 15%;
+        height: 12%;
         left:2%;
     }
     .Per-info{
-        left:35%;
+        left:30%;
     }
     .Per-info .name{
-        font-size: 35px;
+        font-size: 25px;
     }
     .Per-info .profession{
-        font-size: 15px;
+        font-size: 8px;
     }
     .background{
         height: 25%;
+    }
+    .infoMain a{
+        left:80%;
+        font-size: 10px;
+        width:18%;
     }
 
 }

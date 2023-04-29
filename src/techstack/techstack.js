@@ -17,17 +17,17 @@ function Techstack(){
             <p className='heading'>Tech Stack</p>
             <div className='icons'>
                 {/* <img src={c} className='icon'></img> */}
-                <img className='icon' src="https://img.icons8.com/ios/50/null/c-plus-plus-logo.png"/>
+                <img className='icon'  src="https://img.icons8.com/ios/100/null/c-plus-plus-logo.png"/>
                 {/* <img src={html} className='icon'></img> */}
                 <img className='icon' src="https://img.icons8.com/ios/50/null/html-5--v2.png"/>
                 {/* <img src={css} className='icon'></img> */}
                 <img className='icon' src="https://img.icons8.com/ios/50/null/css3.png"/>
                 {/* <img src={php} className='icon'></img> */}
-                <img className='icon' src="https://img.icons8.com/ios/50/null/php-logo.png"/>
+                <img className='icon' src="https://img.icons8.com/ios/100/null/php.png"/>
                 {/* <img src={mysql} className='icon'></img> */}
-                <img className='icon' src="https://img.icons8.com/ios/50/null/mysql.png"/>
+                <img className='icon' src="https://img.icons8.com/ios/100/null/mysql.png"/>
                 {/* <img src={js} className='icon'></img> */}
-                <img className='icon' src="https://img.icons8.com/ios/50/null/javascript--v1.png"/>
+                <img className='icon' src="https://img.icons8.com/ios/100/null/javascript--v1.png"/>
                 {/* <img src={react} className='icon'></img> */}
                 <img className='icon' src="https://img.icons8.com/carbon-copy/100/null/react.png"/>
                 {/* <img src={node} className='icon'></img> */}

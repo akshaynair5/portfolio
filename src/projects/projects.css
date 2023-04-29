@@ -1,13 +1,15 @@
 .Projects{
     height: 80%;
     background-color: black;
+    border-radius: 25px;
+    width:95%;
+    margin-left: 2.5%;
 }
 .projects-container{
     width:100%;
     height: 80%;
     display: flex;
     overflow-x: scroll;
-    border-radius: 15px;
 }
 .projects-container::-webkit-scrollbar {
     width: 12px;              
@@ -150,11 +152,11 @@
         height: 50%;
     }
     .project{
-        min-width:70%;
-        max-width: 70%;
+        min-width:85%;
+        max-width: 85%;
     }
     .projecttab{
-        width:80%;
+        width:90%;
     }
     .descpopup{
         width: 80%;

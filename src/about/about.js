@@ -10,9 +10,9 @@ function About(){
             <p className='heading'>About me</p>
             <div className='AboutContent' >
                 <div className='infoAb'>
-                    <p><b>Name:</b> Akshay Mathilakath Nair</p>
-                    <p><b>DOB: </b>16/08/2003</p>
-                    <p><b>Education: </b>Currently pursuing B-Tech Computer Science Engineering degree at VIT bhopal.<br></br>High School - Indian School Bahrain</p>
+                    <p><b>Hi, my name is Akshay Mathilakath Nair, and I'm happy to tell you a bit more about myself. I was born on August 16th, 2003, and I grew up in Bahrain, where I attended the Indian School Bahrain for my high school education. After completing my schooling, I decided to pursue my passion for technology and web development. That's why I'm currently studying Computer Science Engineering at VIT Bhopal.
+As a full stack web developer, I am deeply committed to my work and take great pride in producing high-quality, user-friendly websites and web applications. I'm constantly striving to learn and improve my skills.
+In my free time, I enjoy working on personal coding projects and exploring new technologies. I also like to stay active by playing sports and going to the gym.</b></p>
                 </div>
             </div>
             {/* <div className='certifications'>

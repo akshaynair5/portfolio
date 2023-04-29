@@ -20,7 +20,7 @@ function Hero(){
         setVis('visible')
     }
     return(
-        <div className='Hero'>
+        <div className='Hero' id="H">
             <img src={background} className='background'></img>
             <div className='infoMain'>
                 <img src={user} className='dp'></img>
@@ -28,7 +28,7 @@ function Hero(){
                     <div className='name'>Akshay <span>Nair</span></div>
                     <div className='profession'>Full Stack Developer</div>
                 </div>
-                <button><a href='#'>RESUME</a></button>
+                <a href='#'>VIEW RESUME</a>
             </div>
             <Projects/>
             <Techstack/>
