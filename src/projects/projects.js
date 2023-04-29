@@ -30,7 +30,7 @@ function Projects(){
                         <img src={`${currentProject.bg}`}></img>
                         <p>{currentProject.name}</p>
                         <p>{currentProject.desc}</p>
-                        <a href={`${currentProject.link}`}>Git Hib Repository</a>
+                        <a href={`${currentProject.link}`}><img src="https://img.icons8.com/ios/50/null/github--v1.png"/></a>
                     </div>
                 </div>
             </div>
