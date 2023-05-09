@@ -28,7 +28,7 @@ function Hero(){
                     <div className='name'>Akshay <span>Nair</span></div>
                     <div className='profession'>Full Stack Developer</div>
                 </div>
-                <a href='#'>VIEW RESUME</a>
+                <a href='https://drive.google.com/file/d/1bIuIABlPNsZZm3VtwWT6cND5EOLTyX4G/view?usp=sharing'>VIEW RESUME</a>
             </div>
             <Projects/>
             <Techstack/>
