@@ -18,7 +18,6 @@ function Projects(){
     {name:'devbot',link:'https://github.com/akshaynair5/devbot',bg:'https://user-images.githubusercontent.com/108605741/216830223-52af03cd-f84d-4aa5-9f5d-168ea39276da.png',desc:'DevBot is a Chat-Bot made using react.js,express and openapi. It has a simple UI through which users can ask questions regarding programing and recieve accurate answers in text form from the API. Personal chat with the bot is stored for you to access it again for future references.'}
 
 ])
-
     useEffect(()=>{
         console.log(currentProject)
     },[currentProject])
