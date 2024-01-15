@@ -9,6 +9,7 @@ import onestop from '../images/1stop.png'
 import bits from '../images/bitsnbytes.png'
 import udemy from '../images/udemy.png'
 import Footer from '../footer/footer'
+import Typed from 'react-typed'
 
 function Hero(){
     const [currentCerti,setCC] = useState(null);
@@ -26,9 +27,17 @@ function Hero(){
                 <img src={user} className='dp'></img>
                 <div className='Per-info'>
                     <div className='name'>Akshay <span>Nair</span></div>
-                    <div className='profession'>Full Stack Developer</div>
+                    <div className='profession'>
+                        <Typed
+                            strings={['Full Stack Developer','Code Enthusiast','Competitive Coder']} 
+                            typeSpeed={50}
+                            backSpeed={50}
+                            loop
+                        >
+                        </Typed>
+                    </div>
                 </div>
-                <a href='https://drive.google.com/file/d/1bIuIABlPNsZZm3VtwWT6cND5EOLTyX4G/view?usp=sharing'>VIEW RESUME</a>
+                <a href=''>VIEW RESUME</a>
             </div>
             <Projects/>
             <Techstack/>

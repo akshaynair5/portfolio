@@ -26,7 +26,7 @@ function Navbar (){
     const Contact = ()=>{
         const x = document.getElementById("H");
         x.scrollTo({
-            top: 0,
+            top: 2000,
             behavior: 'smooth',
         });
     }
