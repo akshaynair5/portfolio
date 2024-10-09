@@ -29,7 +29,7 @@ function Hero(){
                     <div className='name'>Akshay <span>Nair</span></div>
                     <div className='profession'>
                         <Typed
-                            strings={['Full Stack Developer','Code Enthusiast','Competitive Coder']} 
+                            strings={['Web Developer','Programming Enthusiast']} 
                             typeSpeed={50}
                             backSpeed={50}
                             loop
@@ -37,7 +37,7 @@ function Hero(){
                         </Typed>
                     </div>
                 </div>
-                <a href=''>VIEW RESUME</a>
+                <a href='https://drive.google.com/file/d/1XCa3_TPnH6lkIVL7zblgZpYvx9SDNpmf/view?usp=sharing'>VIEW RESUME</a>
             </div>
             <Projects/>
             <Techstack/>

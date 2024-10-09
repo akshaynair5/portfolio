@@ -145,6 +145,7 @@
     position: absolute;
     top:2.5%;
     overflow-y: scroll;
+    filter: grayscale(100%);
 }
 .descContent .link{
     width: 100%;
