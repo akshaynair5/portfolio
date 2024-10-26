@@ -8,6 +8,14 @@ function Projects(){
     const [projectDetails,setPD] = useState([
 
         {
+            name: 'VidWave',
+            link: 'https://github.com/akshaynair5/VidWave', // Replace with the actual link for the VidWave image if available
+            Glink: 'https://github.com/akshaynair5/VidWave', // Replace with the actual GitHub link for the VidWave project
+            bg: 'https://github.com/user-attachments/assets/15d504a1-6204-47ee-89d6-bf7a57794f3f', // Replace with the actual background image link if needed
+            desc: 'VidWave is a comprehensive video sharing platform backend middleware that allows users to upload, manage, and interact with videos, playlists, and comments. The application supports user registration and authentication, channel subscriptions, and social features such as liking and commenting on videos. VidWave enhances user engagement by providing personalized content recommendations and a seamless user experience, making it an ideal solution for creators and viewers alike. The project is built with Node.js, Express.js, and MongoDB, and is designed to be scalable and maintainable, ensuring optimal performance under varying loads.'
+        },        
+
+        {
             name: 'Rate Limiter Redis',
             link: 'https://github.com/user-attachments/assets/ef6be271-2783-4a06-b4ea-944a76847626',
             Glink: 'https://github.com/akshaynair5/Rate-Limiter',
